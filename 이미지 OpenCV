@@ -1,0 +1,31 @@
+#이미지 받기
+#include "opencv.hpp"
+using namespace cv;
+using namespace std;
+int main()
+{
+    Mat img_bw = imread("example.png",0); // 흑백
+    Mat img_color = imread("example.png");   // 칼라
+ 
+    imshow("images", img_color); // 영상 출력
+    waitKey();
+    return 0;
+}
+
+#이미지 복사
+Mat cIMAGEch1;
+    IMAGEch1.copyTo(cIMAGEch1);    // 복사
+    Mat cIMAGEch3 = IMAGEch3.clone(); // 복제
+
+
+#흑백 컬러 변경
+cvtColor( IMAGEch1, cIMAGEch1, COLOR_GRAY2BGR ); // 칼라로 변경
+cvtColor( IMAGEch3, cIMAGEch3, COLOR_BGR2GRAY ); // 흑백으로 변경
+
+#영상 반전
+  // 영상 반전
+    flip(img_color, dst1, 0); // 상하 반전
+    flip(img_color, dst2, 1); // 좌우 반전
+    flip(img_color, dst3, -1); // 상하좌우 반전
+    
+    https://m.blog.naver.com/windowsub0406/220526108073
