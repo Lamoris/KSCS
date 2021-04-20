@@ -13,3 +13,6 @@ https://github.com/wotjd0715/Hustar-HAI/blob/master/learning.py
 
 learn_data
 https://github.com/wotjd0715/Hustar-HAI/tree/master/learn_data
+
+opencv1, 2 
+https://m.blog.naver.com/windowsub0406/220894462409
